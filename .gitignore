@@ -67,3 +67,6 @@ web_modules/
 .env
 .env.test
 .env.production
+
+# build dir
+build/
