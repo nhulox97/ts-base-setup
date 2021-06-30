@@ -1,24 +1,17 @@
 {
-  "name": "ts-base-setup",
+  "name": "ts-stack",
   "version": "1.0.0",
-  "description": "A vainilla-setup for ts projects. Include tslint and prettier confs for node 14 (es2020)",
-  "main": "index.js",
+  "description": "A stack implementation using typescript",
+  "main": "./src/main.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "nodemon",
     "build": "rimraf ./build && tsc",
-    "start": "npm run build && node ./build/index.js",
+    "start": "npm run build && node ./build/main.js",
     "lint": "eslint . --ext .ts",
     "format": "prettier --config .prettierrc.json 'src/**/*.{js,ts}' --write"
   },
-  "keywords": [
-    "tsc",
-    "tslint",
-    "node",
-    "prettier",
-    "setup",
-    "template"
-  ],
+  "keywords": ["tsc", "tslint", "node", "prettier", "template"],
   "author": "Sergio Bernal",
   "license": "MIT",
   "devDependencies": {
