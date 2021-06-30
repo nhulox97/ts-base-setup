@@ -89,6 +89,7 @@ next:
 
 ## Usage
 
+### package.json commands
 This project have a list of differents commands that you can execute, I'll describe all of them next:
 
 - `npm run start -> Internally will exec 'build' command and also execute ./build/main.js`
@@ -120,6 +121,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@nhulo97](https://twitter.com/nhulox97) - sergiobernal909@gmail.com
+Sergio Bernal - [@nhulo97](https://twitter.com/nhulox97) - sergiobernal909@gmail.com
 
 Project Link: [https://github.com/nhulox97/ts-base-setup](https://github.com/nhulox97/ts-base-setup)
